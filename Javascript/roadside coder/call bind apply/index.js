@@ -36,3 +36,5 @@ function hello(age, profession){
  const bindFun = hello.bind(user1); //this will give a function in return 
 // console.log( bindFun(21, "IT guy")) //this is the function we want 
 // console.log( bindFun(26, " engineer")) //we can reuse it 
+
+//call bind and apply uses explicit binding 
