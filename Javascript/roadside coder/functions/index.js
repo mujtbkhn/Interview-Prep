@@ -1,4 +1,4 @@
-//Function Declaration
+//Function Declaration aka Function Statement
 // function sum(n){
 //   return n + n
 // }

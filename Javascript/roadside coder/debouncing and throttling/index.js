@@ -1,4 +1,4 @@
-//Debouncing and Throttling
+ //Debouncing and Throttling
 /*what is debouncing?
 Debouncing in JavaScript is a programming technique that limits the number of times a function is called within a specific period of time. This can be useful for improving performance by preventing a function from being called too frequently.
 
