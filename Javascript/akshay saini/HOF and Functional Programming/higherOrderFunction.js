@@ -21,3 +21,4 @@ let square = function (x) {
 map(array, square)
 
 //in this code, function map takes in two arguments 1. array 2. function and calculate a result accordingly as a function is being passed as argument inside map this makes it a higher order function
+
