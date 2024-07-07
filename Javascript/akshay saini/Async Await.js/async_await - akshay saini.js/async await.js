@@ -132,11 +132,11 @@ async function handleFetch() {
 
         const jsonValue = await data.json()
 
-        console.log(jsonValue);
+        // console.log(jsonValue);
     }
 
     catch (error) {
-        console.log(error.message)
+        // console.log(error.message)
     }
 }
 handleFetch()

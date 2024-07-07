@@ -140,11 +140,12 @@ d1 = c1;
 c1.greeting = "Hello";
 // console.log(d1.greeting);
 //output: Hello, as we are providing the reference of c1 in d so any change in c will change d1
+//any change made in either will affect both as they have the same reference
 
 //ques 12
 
 // console.log({a: 1} == {a: 1}); 
-// console.log({a: 1} === {a: 1}); //This condition will always return 'false' since JavaScript compares objects by reference, not value.ts(2839)
+// console.log({a: 1} === {a: 1}); //This condition will always return 'false' since JavaScript compares objects by reference
 //false
 //false
 // both the objects have different memory space

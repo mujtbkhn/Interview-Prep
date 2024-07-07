@@ -15,3 +15,4 @@ function removeVowels(arr){
 
 }
 removeVowels('welcome to geeksforgeeks')
+

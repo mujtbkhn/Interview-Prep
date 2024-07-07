@@ -63,7 +63,7 @@ const user = fetch(GITHUB_API)
 console.log(user)
 //this will print state as pending but the object inside will print state as fulfilled this is just an inconsistency in chrome browser 
 
-// PROMISES ARE MUTABLE IE NO ONE CAN CHANGE THE DATA ONCE IT IS FULFILLED WE CAN PASS IT ANYWHERE AND NEED NOT HAVE TO WORRY FOR SOMEONE TO CHANGE IT
+// PROMISES ARE IMMUTABLE IE NO ONE CAN CHANGE THE DATA ONCE IT IS FULFILLED WE CAN PASS IT ANYWHERE AND NEED NOT HAVE TO WORRY FOR SOMEONE TO CHANGE IT
 
 //PROMISE CHAINING:
 //we can attach all the callbacks in promises using chaining method where in all the functions are dependent on the completion of the functions above them we can use the .then() keyword
